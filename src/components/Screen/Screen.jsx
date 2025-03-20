@@ -13,7 +13,7 @@ const Screen = () => {
             <div className="gradient-border">
                     <div className="gray-block">
                         <div className="screen">
-                            <img src="public/pexels-photo-91227.jpeg" alt="self=photo" />
+                            <img src="/public/pexels-photo-91227.jpeg" alt="self=photo" />
                             <Skills className={"frontend"} label="Frontend" myList={frontEnd}/>
                             <Skills className={"backend"} label="Backend" myList={backend}/>
                             <Skills label="Database" myList={database} className={"contact"}/>
