@@ -1,0 +1,133 @@
+.skills {
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #161B37, #1B2144, #202851, #2E3979);
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 0 28px;
+    font-family: "Source Code Pro";
+    font-weight: normal;
+    box-shadow: 0 4px 4px black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills h2 {
+    font-family: "Source Code Pro";
+    font-weight: normal;
+}
+
+.skills:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.skills ul {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    background: linear-gradient(90deg, #161B37, #1B2144, #202851, #2E3979);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    box-shadow: 0 4px 4px black;
+}
+
+.skills ul.show {
+    max-height: fit-content;
+    opacity: 1;
+    z-index: 1;
+}
+
+.skills ul li {
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skills ul li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.backend {
+    left: 250px;
+    top: 590px;
+}
+
+.frontend {
+    right: 280px;
+    top: 500px;
+}
+
+.contact {
+    right: 450px;
+    top: 760px;
+}
+
+@media (width < 1450px) {
+    .backend {
+        left: 100px;
+        top: 590px;
+    }
+    
+    .frontend {
+        right: 100px;
+        top: 500px;
+    }
+    
+    .contact {
+        right: 150px;
+        top: 760px;
+    }
+}
+
+@media (width < 939px) {
+    .backend {
+        left: 50px;
+        top: 590px;
+        z-index: 1;
+    }
+    
+    .frontend {
+        right:150px;
+        top: 350px;
+    }
+    
+    .contact {
+        right: 30px;
+        top: 660px;
+        z-index: 1;
+    }
+
+    .skills {
+        position: absolute;
+        width: 194px;
+        height: 60px;
+        box-sizing: border-box;
+        background: linear-gradient(90deg, #161B37, #1B2144, #202851, #2E3979);
+        border-radius: 12px;
+        color: white;
+        border: none;
+        padding: 0 28px;
+        font-family: "Source Code Pro";
+        font-weight: normal;
+        box-shadow: 0 4px 4px black;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+}

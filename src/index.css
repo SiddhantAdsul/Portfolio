@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  font-family: "IBM Plex Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: radial-gradient(circle 1500px at top, #44065C, #340348, #270733, #22092D, #1B141E, #030611, #030611, #030611 );
+}

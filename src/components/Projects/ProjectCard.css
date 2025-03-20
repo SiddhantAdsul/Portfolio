@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.project-con {
+    background-color: #030611;
+    width: 100%;
+    /* height: 880px; */
+    /* margin:auto; */
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-con > h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    position: relative;
+    margin-top: 80px;
+    width: 388px;
+    height: 533px;
+    background-color: #030611;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #124D67;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    cursor: default;
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px rgba(9, 198, 249, 0.6);
+}
+
+*{
+    font-family: "Lexend Deca";
+}
+
+.project-card h3 {
+    font-size: 32px;
+    font-weight: normal;
+    padding: 40px 30px 0 30px;
+}
+
+.project-card p {
+    font-weight: lighter;
+    padding: 8px 30px;
+    font-size: 20px;
+}
+
+.project-card ul {
+    width: 328px;
+    height: 298px;
+    padding: 16px 30px;
+    font-size: 20px;
+}
+
+.card-footer {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer a {
+    color: white;
+}
+
+@media (width < 834px) {
+    .project-con > h1 {
+        font-size: 48px;
+    }
+}
