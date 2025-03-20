@@ -15,8 +15,8 @@ const Projects = () => {
                             "Leveraged JPA Repositories and Spring Data Rest for seamless data handling and API Implementation."
                         ]}
                         icons={[
-                             {src: "src/assets/spring-logo.png", alt: "Spring Logo"},
-                             {src: "src/assets/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo"}
+                             {src: "public/spring-logo.png", alt: "Spring Logo"},
+                             {src: "public/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo"}
                         ]}
                         projectLink={"https://github.com/SiddhantAdsul/PetStoreApp-Spring-Boot-"}
                     />
@@ -28,9 +28,9 @@ const Projects = () => {
                             "Applied comprehensive validation checks for both registration and login to ensure data integrity.",
                             "Utilised JPA Repositories and Spring Data REST for efficient data handling."
                         ]}
-                        icons={[{src: "src/assets/React-Icon-Black.png", alt: "React Logo"},
-                             {src: "src/assets/spring-logo.png", alt: "Spring Logo"},
-                             {src: "src/assets/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo"}
+                        icons={[{src: "public/React-Icon-Black.png", alt: "React Logo"},
+                             {src: "public/spring-logo.png", alt: "Spring Logo"},
+                             {src: "public/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo"}
                         ]}
                     />
                     <ProjectCard
@@ -42,9 +42,9 @@ const Projects = () => {
                             "Implemented a seamless login-register modal using vanilla JavaScript"
                         ]}
                         icons={[
-                             {src: "src/assets/html.png", alt: "HTML5 Logo"},
-                             {src: "src/assets/css3.png", alt: "CSS3 Logo"},
-                             {src: "src/assets/javascript.png", alt: "Javascript Logo"}
+                             {src: "public/html.png", alt: "HTML5 Logo"},
+                             {src: "public/css3.png", alt: "CSS3 Logo"},
+                             {src: "public/javascript.png", alt: "Javascript Logo"}
                         ]}
                         projectLink={"https://github.com/SiddhantAdsul/FoodieHub-Food-Website-for-Design-"}
                     />
@@ -58,9 +58,9 @@ const Projects = () => {
                             "Enabled quiz-taking functionality with real-time scoring and answer validation."
                         ]}
                         icons={[
-                            { src: "src/assets/React-Icon-Black.png", alt: "React Logo" },
-                            { src: "src/assets/spring-logo.png", alt: "Spring Boot Logo" },
-                            { src: "src/assets/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo" }
+                            { src: "public/React-Icon-Black.png", alt: "React Logo" },
+                            { src: "public/spring-logo.png", alt: "Spring Boot Logo" },
+                            { src: "public/mysqlworkbench_93532.webp", alt: "MySQL Workbench Logo" }
                         ]}
                         projectLink={"https://github.com/SiddhantAdsul/DevStackFull-Quiz-Application-In-Spring-Boot"}
                     />

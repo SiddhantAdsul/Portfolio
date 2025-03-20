@@ -39,7 +39,7 @@ const Header = () => {
         <div className="popup">
           <div className="popup-content">
             <span className="close" onClick={togglePopup}>&times;</span>
-            <iframe src="src/assets/Siddhant_Adsule_8379909787.pdf" width="100%" height="800px"></iframe>
+            <iframe src="public/Siddhant_Adsule_8379909787.pdf" width="100%" height="800px"></iframe>
           </div>
         </div>
       )}
